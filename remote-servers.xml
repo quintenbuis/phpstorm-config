@@ -4,6 +4,22 @@
       <configuration>
         <option name="apiUrl" value="unix:///var/run/docker.sock" />
         <option name="certificatesPath" />
+        <option name="customConfiguratorId" value="DockerDefaultConnectionConfigurator" />
+      </configuration>
+    </remote-server>
+    <remote-server name="Dayes" type="docker">
+      <configuration>
+        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="certificatesPath" />
+        <option name="customConfiguratorId" value="DockerDefaultConnectionConfigurator" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="$USER_HOME$/code/projects/dayes/src" />
+              <option name="virtualMachinePath" value="/www" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
       </configuration>
     </remote-server>
   </component>
