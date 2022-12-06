@@ -1,4 +1,5 @@
 <application>
+  <component name="PhpAutoImport" global_class_behavior="PREFER_IMPORT" global_constant_behavior="PREFER_IMPORT" global_function_behavior="PREFER_IMPORT" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="a7bde828-4ebb-40a8-a0b1-2feaa6db59ae" name="PHP" home="/opt/homebrew/bin/php" debugger_id="php.debugger.XDebug" />
